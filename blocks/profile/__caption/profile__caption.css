@@ -1,0 +1,19 @@
+.profile__caption {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #fff;
+}
+
+@media screen and (max-width: 599px) {
+    .profile__caption {
+        font-size: 14px;
+        line-height: 1.21;
+        text-align: center;
+    }
+}

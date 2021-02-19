@@ -11,4 +11,14 @@
 
 @import "../blocks/content/content.css";
 
+@import "../blocks/wrapper/_place/wrapper_place_profile.css";
+@import "../blocks/profile/profile.css";
+@import "../blocks/profile/__avatar/profile__avatar.css";
+@import "../blocks/profile/__info/profile__info.css";
+@import "../blocks/profile/__name/profile__name.css";
+@import "../blocks/profile/__caption/profile__caption.css";
+@import "../blocks/button/button.css";
+@import "../blocks/profile/__edit-button/profile__edit-button.css";
+@import "../blocks/profile/__add-button/profile__add-button.css";
+
 @import "../blocks/footer/footer.css";
