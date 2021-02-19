@@ -1,0 +1,33 @@
+.wrapper {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 200px;
+}
+  
+@media screen and (max-width: 1279px) {
+    .wrapper {
+      padding: 0 160px;
+    }
+}
+  
+@media screen and (max-width: 1023px) {
+    .wrapper {
+      padding: 0 115px;
+    }
+}
+  
+@media screen and (max-width: 767px) {
+    .wrapper {
+      padding: 0 64px;
+    }
+}
+  
+@media screen and (max-width: 414px) {
+    .wrapper {
+      padding: 0 19px;
+    }
+
+    .wrapper:nth-child(1) {
+        padding: 0;
+    }
+}
