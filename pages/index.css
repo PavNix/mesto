@@ -1,0 +1,14 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/font.css";
+
+@import "../blocks/root/root.css";
+@import "../blocks/wrapper/wrapper.css";
+
+@import "../blocks/wrapper/_place/wrapper_place_header.css";
+@import "../blocks/header/header.css";
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__logo/header__logo.css";
+
+@import "../blocks/content/content.css";
+
+@import "../blocks/footer/footer.css";
