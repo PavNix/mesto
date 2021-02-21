@@ -1,0 +1,15 @@
+.element__text {
+    grid-row: 2;
+    margin: 0;
+    max-width: 80%;
+    padding-left: 21px;
+    padding-bottom: 30px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1.21;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
