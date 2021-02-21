@@ -1,7 +1,5 @@
 .header__link {
-    width: 100%;
     padding-bottom: 41px;
-    border-bottom: 1px solid #545454b3;
 }
 
 @media screen and (max-width: 414px) {

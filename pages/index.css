@@ -21,4 +21,16 @@
 @import "../blocks/profile/__edit-button/profile__edit-button.css";
 @import "../blocks/profile/__add-button/profile__add-button.css";
 
+@import "../blocks/wrapper/_place/wrapper_place_elements.css";
+@import "../blocks/elements/elements.css";
+@import "../blocks/elements/__list/elements__list.css";
+
+@import "../blocks/element/element.css";
+@import "../blocks/element/__rectangle/element__rectangle.css";
+@import "../blocks/element/__image/element__image.css";
+@import "../blocks/element/__text/element__text.css";
+@import "../blocks/element/__like-button/element__like-button.css";
+
 @import "../blocks/footer/footer.css";
+@import "../blocks/wrapper/_place/wrapper_place_footer.css";
+@import "../blocks/footer/__caption/footer__caption.css";
