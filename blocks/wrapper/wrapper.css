@@ -18,3 +18,10 @@
     padding-left: 19px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    max-width: 282px;
+    width: 100%;
+  }
+}
