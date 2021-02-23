@@ -5,6 +5,7 @@
     width: 150px;
     height: 50px;
     border: 2px #fff solid;
+    border-radius: 2px;
     outline: none;
     cursor: pointer;
     padding: 0;

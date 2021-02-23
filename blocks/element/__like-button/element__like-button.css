@@ -22,6 +22,7 @@
     opacity: .5;
 }
 
+/* в index.js написала функцию likeButtonActive
 .element__like-button:focus {
     background-image: url(../../../images/like-button-active.svg);
-}
+} */

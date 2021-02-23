@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Проектная работа: 'Место', автор - Вероника Павличенко. Данный веб-ресурс дает возможность пользователям делиться фотографиями своих путешествий по миру.">
+    <meta name="description" content="Проектная работа: 'Место', автор - Вероника Павличенко. Работа написана в рамках учебного курса от ЯндексПрактикум. Веб-страница о путешествиях по миру.">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Mesto</title>
 </head>
@@ -22,9 +22,9 @@
             <div class="profile__info">
                 <h1 class="profile__name"></h1>
                 <p class="profile__caption"></p>
-                <button class="profile__edit-button" aria-label="Редактировать профиль"></button>
+                <button class="profile__edit-button" value="openPopup" aria-label="Редактировать профиль"></button>
             </div>
-            <button class="profile__add-button" aria-label="Добавить фотографии"></button>
+            <button class="profile__add-button" value="addPhoto" aria-label="Добавить фотографии"></button>
         </section>
 
         <section class="elements wrapper wrapper_place_elements">
@@ -91,13 +91,13 @@
     </footer>
 
     <div class="popup">
-        <div class="popup__container" name="info">
+        <div class="popup__container">
             <form class="edit-form">
                 <h2 class="edit-form__title">Редактировать профиль</h2>
-                <input class="edit-form__input" type="text" id="profile-name" value="" aria-label="Имя" placeholder="Имя" name="Name" required minlength="2" maxlength="60">
-                <input class="edit-form__input" type="text" id="profile-caption" value="" aria-label="О себе" placeholder="О себе" name="Caption" required minlength="2" maxlength="200">
-                <button class="edit-form__submit-button" type="submit" value="Сохранить" aria-label="Сохранить">Сохранить</button>
-                <button class="edit-form__close-button" type="reset" value="" aria-label="Закрыть"></button>
+                <input class="edit-form__input" type="text" id="profile-name" value="nameInput" aria-label="Имя" placeholder="Имя" name="name" required minlength="2" maxlength="60">
+                <input class="edit-form__input" type="text" id="profile-caption" value="jobInput" aria-label="О себе" placeholder="О себе" name="caption" required minlength="2" maxlength="200">
+                <button class="edit-form__submit-button" type="submit" value="submitPopup" aria-label="Сохранить">Сохранить</button>
+                <button class="edit-form__close-button" type="reset" value="closePopup" aria-label="Закрыть"></button>
             </form>
         </div>
     </div>
