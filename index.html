@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Проектная работа: 'Место', автор - Вероника Павличенко. Работа написана в рамках учебного курса от ЯндексПрактикум. Веб-страница о путешествиях по миру.">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+<body class="root">
+    <header class="header wrapper wrapper_place_header">
+        <a class="header__link" href="#" target="_blank">
+            <img class="header__logo" src="./images/logo-image.svg" 
+            alt="Логотип 'Место'.">
+        </a>
+    </header>
+
+    <main class="content">
+        <section class="profile wrapper wrapper_place_profile">
+            <img class="profile__avatar" src="./images/avatar_image.jpg" alt="Изображение профиля">
+            <div class="profile__info">
+                <h1 class="profile__name"></h1>
+                <p class="profile__caption"></p>
+                <button class="profile__edit-button" value="openPopup" aria-label="Редактировать профиль"></button>
+            </div>
+            <button class="profile__add-button" value="addPhoto" aria-label="Добавить фотографии"></button>
+        </section>
+
+        <section class="elements wrapper wrapper_place_elements">
+            <ul class="elements__list">
+                <li class="element">
+                    <figure class="element__rectangle">
+                        <img class="element__image" src="./images/element-image-1.jpg" 
+                        alt="Иллюстрация, 'Пляж Грандс Рокс, Нормандские острова'.">
+                        <figcaption class="element__text">Грандс Рокс</figcaption>
+                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
+                    </figure>
+                </li>
+
+                <li class="element">
+                    <figure class="element__rectangle">
+                        <img class="element__image" src="./images/element-image-2.jpg" 
+                        alt="Иллюстрация, 'Коммуна Рабу, Франция'.">
+                        <figcaption class="element__text">Рабу</figcaption>
+                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
+                    </figure>
+                </li>
+
+                <li class="element">
+                    <figure class="element__rectangle">
+                        <img class="element__image" src="./images/element-image-3.jpg" 
+                        alt="Иллюстрация, 'Санта Круз - штат Калифорния, США'.">
+                        <figcaption class="element__text">Санта Круз</figcaption>
+                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
+                    </figure>
+                </li>
+
+                <li class="element">
+                    <figure class="element__rectangle">
+                        <img class="element__image" src="./images/element-image-4.jpg" 
+                        alt="Иллюстрация, 'Каполей - Гавайи, США'.">
+                        <figcaption class="element__text">Каполей</figcaption>
+                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
+                    </figure>
+                </li>
+
+                <li class="element">
+                    <figure class="element__rectangle">
+                        <img class="element__image" src="./images/element-image-5.jpg" 
+                        alt="Иллюстрация, 'Древний сосновый лес Бристлконе - штат Калифорния, США'.">
+                        <figcaption class="element__text">Бристлконе</figcaption>
+                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
+                    </figure>
+                </li>
+
+                <li class="element">
+                    <figure class="element__rectangle">
+                        <img class="element__image" src="./images/element-image-6.jpg" 
+                        alt="Иллюстрация, 'Грейт-Санд-Дьюнс - штат Колорадо, США'.">
+                        <figcaption class="element__text">Грейт-Санд-Дьюнс</figcaption>
+                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer wrapper wrapper_place_footer">
+        <p class="footer__caption">&copy; Mesto Russia</p>
+    </footer>
+
+    <div class="popup">
+        <div class="popup__container">
+            <form class="edit-form">
+                <h2 class="edit-form__title">Редактировать профиль</h2>
+                <input class="edit-form__input" type="text" id="profile-name" value="nameInput" aria-label="Имя" placeholder="Имя" name="name" required minlength="2" maxlength="60">
+                <input class="edit-form__input" type="text" id="profile-caption" value="jobInput" aria-label="О себе" placeholder="О себе" name="caption" required minlength="2" maxlength="200">
+                <button class="edit-form__submit-button" type="submit" value="submitPopup" aria-label="Сохранить">Сохранить</button>
+                <button class="edit-form__close-button" type="reset" value="closePopup" aria-label="Закрыть"></button>
+            </form>
+        </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

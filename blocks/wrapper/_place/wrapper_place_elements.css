@@ -1,0 +1,9 @@
+.wrapper_place_elements {
+    padding-bottom: 58px;
+}
+
+@media screen and (max-width: 414px) {
+    .wrapper_place_elements {
+        padding-bottom: 48px;
+    }
+}

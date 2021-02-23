@@ -1,0 +1,16 @@
+.edit-form__input {
+    margin: 0 0 33px;
+    padding: 0 0 13px;
+    min-height: 27px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.21;
+    border: none;
+    border-bottom: 1px #00000033 solid;
+}
+
+.edit-form__input:last-of-type {
+    margin: 0 0 48px;
+}

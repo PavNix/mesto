@@ -1,0 +1,7 @@
+.element__rectangle {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr minmax(min-content, max-content);
+    row-gap: 25px;
+}

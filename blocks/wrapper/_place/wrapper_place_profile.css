@@ -1,0 +1,17 @@
+.wrapper_place_profile {
+    padding-top: 40px;
+    padding-bottom: 58px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    .wrapper_place_profile {
+        padding-top: 36px;
+        padding-bottom: 44px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .wrapper_place_profile {
+        padding-bottom: 36px;
+    }
+}
