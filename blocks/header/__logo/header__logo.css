@@ -3,7 +3,7 @@
     height: 33px;
     cursor: pointer;
     opacity: 1;
-    transition: opacity .5s linear
+    transition: opacity .5s linear;
 }
 
 .header__logo:hover {
