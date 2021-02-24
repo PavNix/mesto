@@ -13,12 +13,13 @@
     color: #fff;
     text-align: center;
     cursor: pointer;
-    opacity: .13;
-    transition: opacity .5s linear;
+    filter: drop-shadow(0 0 0 #fff);
+    opacity: 1;
+    transition: opacity .5s linear, filter .5s linear;
 }
 
 .edit-form__submit-button:hover {
-    opacity: 1;
+    opacity: .8;
     filter: drop-shadow(0 4px 4px #00000040);
 }
 
