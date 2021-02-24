@@ -1,11 +1,9 @@
 .element__like-button {
-    grid-column: 2;
-    grid-row: 2;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
     width: 22px;
     height: 19px;
-    padding: 0;
-    padding-bottom: 30px;
-    margin-right: 20px;
     box-sizing: border-box;
     border: none;
     outline: none;
@@ -22,7 +20,6 @@
     opacity: .5;
 }
 
-/* в index.js написала функцию likeButtonActive
 .element__like-button:focus {
     background-image: url(../../../images/like-button-active.svg);
-} */
+}

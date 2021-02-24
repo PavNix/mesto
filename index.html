@@ -22,9 +22,9 @@
             <div class="profile__info">
                 <h1 class="profile__name"></h1>
                 <p class="profile__caption"></p>
-                <button class="profile__edit-button" value="openPopup" aria-label="Редактировать профиль"></button>
+                <button class="profile__edit-button" type="button" value="openPopup" aria-label="Редактировать профиль"></button>
             </div>
-            <button class="profile__add-button" value="addPhoto" aria-label="Добавить фотографии"></button>
+            <button class="profile__add-button" type="button" value="addPhoto" aria-label="Добавить фотографии"></button>
         </section>
 
         <section class="elements wrapper wrapper_place_elements">
@@ -34,8 +34,8 @@
                         <img class="element__image" src="./images/element-image-1.jpg" 
                         alt="Иллюстрация, 'Пляж Грандс Рокс, Нормандские острова'.">
                         <figcaption class="element__text">Грандс Рокс</figcaption>
-                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
                     </figure>
+                    <button class="element__like-button" type="button" aria-label="Поставить 'Нравится'"></button>
                 </li>
 
                 <li class="element">
@@ -43,8 +43,8 @@
                         <img class="element__image" src="./images/element-image-2.jpg" 
                         alt="Иллюстрация, 'Коммуна Рабу, Франция'.">
                         <figcaption class="element__text">Рабу</figcaption>
-                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
                     </figure>
+                    <button class="element__like-button" type="button" aria-label="Поставить 'Нравится'"></button>
                 </li>
 
                 <li class="element">
@@ -52,8 +52,8 @@
                         <img class="element__image" src="./images/element-image-3.jpg" 
                         alt="Иллюстрация, 'Санта Круз - штат Калифорния, США'.">
                         <figcaption class="element__text">Санта Круз</figcaption>
-                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
                     </figure>
+                    <button class="element__like-button" type="button" aria-label="Поставить 'Нравится'"></button>
                 </li>
 
                 <li class="element">
@@ -61,8 +61,8 @@
                         <img class="element__image" src="./images/element-image-4.jpg" 
                         alt="Иллюстрация, 'Каполей - Гавайи, США'.">
                         <figcaption class="element__text">Каполей</figcaption>
-                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
                     </figure>
+                    <button class="element__like-button" type="button" aria-label="Поставить 'Нравится'"></button>
                 </li>
 
                 <li class="element">
@@ -70,8 +70,8 @@
                         <img class="element__image" src="./images/element-image-5.jpg" 
                         alt="Иллюстрация, 'Древний сосновый лес Бристлконе - штат Калифорния, США'.">
                         <figcaption class="element__text">Бристлконе</figcaption>
-                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
                     </figure>
+                    <button class="element__like-button" type="button" aria-label="Поставить 'Нравится'"></button>
                 </li>
 
                 <li class="element">
@@ -79,8 +79,8 @@
                         <img class="element__image" src="./images/element-image-6.jpg" 
                         alt="Иллюстрация, 'Грейт-Санд-Дьюнс - штат Колорадо, США'.">
                         <figcaption class="element__text">Грейт-Санд-Дьюнс</figcaption>
-                        <button class="element__like-button" aria-label="Поставить 'Нравится'"></button>
                     </figure>
+                    <button class="element__like-button" type="button" aria-label="Поставить 'Нравится'"></button>
                 </li>
             </ul>
         </section>
@@ -92,7 +92,7 @@
 
     <div class="popup">
         <div class="popup__container">
-            <form class="edit-form">
+            <form class="edit-form" name="info">
                 <h2 class="edit-form__title">Редактировать профиль</h2>
                 <input class="edit-form__input" type="text" id="profile-name" value="nameInput" aria-label="Имя" placeholder="Имя" name="name" required minlength="2" maxlength="60">
                 <input class="edit-form__input" type="text" id="profile-caption" value="jobInput" aria-label="О себе" placeholder="О себе" name="caption" required minlength="2" maxlength="200">
